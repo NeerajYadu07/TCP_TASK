@@ -1,0 +1,442 @@
+/* Offer */
+
+.offer {
+    background-color: #187dca;
+
+}
+
+
+/* Nav-bar */
+
+
+.nav {
+    background-color: #1b9dff;
+    padding: 15px;
+}
+
+/* Dropdown buttons */
+
+.dropbtn {
+    float: left;
+    color: #f2f2f2;
+    background-color: #1b9dff;
+    text-align: center;
+    padding: 10px 50px;
+    text-decoration: none;
+    font-size: 17px;
+    border: 0;
+}
+
+.dropbtn#quote {
+    border: 3px solid white;
+    border-radius: 30px;
+}
+
+.dropbtn:hover {
+    background-color: #1b9dff;
+    color: black;
+}
+
+.dropdown {
+    
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown content */
+
+.dropdown-content {
+    margin: 30px;
+    left: 0;
+    display: none;
+    position: absolute;
+    right: 0;
+    color: black;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content h3,
+p {
+    color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* dropdown section columns */
+
+.flex-container-d {
+    display: flex;
+    background-color: white;
+    width: 500px;
+    padding: 20px;
+    color: white;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+}
+
+.flex-child-d {
+    flex:1;
+    margin: 10px;
+}
+
+.flex-child-d p{
+    color: black;
+    padding-bottom:15px;
+}
+.flex-child p{
+    color: white;
+}
+
+
+
+
+
+/* midsection css*/
+
+p.a1 {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+
+}
+
+p.a2 {
+    font-size: 20px;
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 30px;
+    color: white;
+}
+
+p.a3 {
+    font-size: 50px;
+    text-align: center;
+    color: black;
+
+}
+
+p.a4 {
+    font-size: 20px;
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 30px;
+    color: black;
+}
+
+
+/* midsection multiple Backgroung images */
+
+section div.sec1 {
+    background-image: url("images/b1.svg"), url("images/b2.svg");
+    ;
+
+    background-color: #1b9dff;
+    background-repeat: no-repeat;
+    background-size: 100%, 25%;
+    background-position: center, bottom;
+    width: 100%;
+    height: 700px;
+}
+
+section div.sec2 {
+    padding: 50px;
+    background-color: white;
+
+    align-items: center;
+
+}
+
+/* service cards css */
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.c1 {
+    height: 200px;
+    width: 180px;
+}
+
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Quicksand", sans-serif;
+    display: grid;
+    height: 100vh;
+    margin:auto;
+    
+
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin-block: 2rem;
+    gap: 2rem;
+    padding-left: 100px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: clamp(20rem, calc(20rem + 2vw), 22rem);
+    overflow: hidden;
+    box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: 1em;
+    background: white;
+    
+
+
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+
+.card__body {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+
+.tag {
+    align-self: flex-start;
+    padding: .25em .75em;
+    border-radius: 1em;
+    font-size: .75rem;
+}
+
+.card__body h4 {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
+.card__footer {
+    display: flex;
+    padding: 1rem;
+    margin-top: auto;
+}
+
+.lm {
+
+    text-align: center;
+}
+
+.user__image {
+    border-radius: 50%;
+}
+
+.user__info>small {
+    color: #666;
+}
+
+.cards {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+/* review cards */
+
+.row {
+    height: 400px;
+    padding-left: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: auto;
+}
+
+.crd {
+
+
+    max-width: 100%;
+    padding: 10px;
+    margin-bottom: 2rem;
+    border: 0;
+    flex-basis: 100%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    text-align: left;
+    align-items: left;
+}
+
+.crd img {
+    float: left;
+    height: 260px;
+    width: 279px;
+    padding-bottom: 0px;
+    margin-bottom: .75rem;
+
+}
+
+.card-text {
+    padding: 100px;
+    text-align: left;
+    font-size: 85%;
+}
+
+footer {
+    align-items: center;
+}
+
+.row::-webkit-scrollbar {
+    display: none;
+}
+
+.card-text img {
+    padding: 0%;
+}
+
+.crd img.r {
+    height: 100px;
+    width: 134px;
+}
+h5{
+    color: #1b9dff;
+}
+
+
+/* info section */
+
+.flex-container {
+    display: flex;
+    background-color: rgb(66, 66, 66);
+    ;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    color: white;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+}
+
+.flex-child {
+    flex: 4;
+    padding-left: 100px;
+}
+
+
+.x {
+    border-bottom: 1px solid white;
+    padding-bottom: 3px;
+}
+
+.y {
+    padding-top: 10px;
+}
+
+
+
+/* social media Handles */
+
+.fa {
+    padding-top: 30px;
+    font-size: 20px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: rgb(66, 66, 66);
+    ;
+    color: white;
+}
+
+.fa-twitter {
+    background: rgb(66, 66, 66);
+    ;
+    color: white;
+}
+
+.fa-google {
+    background: rgb(66, 66, 66);
+    color: white;
+}
+
+.fa-instagram {
+    background: rgb(66, 66, 66);
+    ;
+    color: white;
+}
+
+
+/* terms and condition */
+
+.rules {
+    padding: 100px;
+    color: white;
+    background-color: rgb(66, 66, 66);
+}
+
+.rules p {
+    padding: 30px;
+    color: white;
+}
+
+.rules div {
+    padding-left: 30px;
+}
+
+.foot {
+    background-color: rgb(50, 50, 50);
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.foot span {
+    padding: 10px;
+}
+
+.foot span.z {
+    padding-right: 80px;
+}
